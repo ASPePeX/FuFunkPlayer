@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true" >
+
+    <EditText
+        android:id="@+id/EditTextSongURL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:text="The song URL"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/fufunk" />
+
+    <RelativeLayout
+        android:id="@+id/InnerRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <ImageButton
+            android:id="@+id/ButtonTestPlayPause"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/imageView1"
+            android:contentDescription="@string/btn_play"
+            android:src="@drawable/button_play" />
+
+        <SeekBar
+            android:id="@+id/SeekBarTestPlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ButtonTestPlayPause"
+            android:thumb="@drawable/thumb_transparent" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="http://www.fufunk.de/"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:autoLink="web" />
+
+</RelativeLayout>

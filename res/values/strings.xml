@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FuFunk - Der Soundtrack deines Studiums</string>
+    <string name="btn_play">PlayButton</string>
+    <string name="testsong_20_sec">http://aspepex.net:8000/fufunk.mp3</string>
+
+</resources>
