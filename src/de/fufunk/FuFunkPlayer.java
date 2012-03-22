@@ -48,7 +48,7 @@ public class FuFunkPlayer extends Activity implements OnClickListener,
 		seekBarProgress.setMax(99); // It means 100% .0-99
 		seekBarProgress.setOnTouchListener(this);
 		editTextSongURL = (EditText) findViewById(R.id.EditTextSongURL);
-		editTextSongURL.setText(R.string.testsong_20_sec);
+		editTextSongURL.setText(R.string.broadcastURL);
 
 		mediaPlayer = new MediaPlayer();
 		mediaPlayer.setOnBufferingUpdateListener(this);

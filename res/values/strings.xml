@@ -3,6 +3,6 @@
 
     <string name="app_name">FuFunk - Der Soundtrack deines Studiums</string>
     <string name="btn_play">PlayButton</string>
-    <string name="testsong_20_sec">http://aspepex.net:8000/fufunk.mp3</string>
+    <string name="broadcastURL">http://camm.dm.hs-furtwangen.de:8200/fufunk.mp3</string>
 
 </resources>
